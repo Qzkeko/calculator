@@ -12,3 +12,9 @@ public class CalculatorApplication {
 	}
 
 }
+@Service
+public class Calculatrice {
+	public int sum(int a, int b) {
+		return a + b;
+	}
+}
